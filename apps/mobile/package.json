@@ -1,0 +1,8 @@
+{
+  "name": "@inventory/mobile",
+  "private": true,
+  "main": "expo-router/entry",
+  "scripts": { "dev": "expo start", "start": "expo start", "build": "expo export", "lint": "eslint .", "typecheck": "tsc --noEmit" },
+  "dependencies": { "@inventory/types": "workspace:*", "expo": "~52.0.25", "expo-router": "~4.0.15", "react": "18.3.1", "react-native": "0.76.6" },
+  "devDependencies": { "@types/react": "~18.3.12", "typescript": "^5.7.2" }
+}

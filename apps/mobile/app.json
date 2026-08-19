@@ -1,0 +1,1 @@
+{ "expo": { "name": "Inventory Platform", "slug": "inventory-platform", "scheme": "inventory-platform", "version": "1.0.0", "orientation": "portrait", "plugins": ["expo-router"] } }

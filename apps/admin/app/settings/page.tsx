@@ -1,0 +1,1 @@
+export default function SettingsPlaceholder() { return <main><h1>Settings route placeholder</h1></main>; }

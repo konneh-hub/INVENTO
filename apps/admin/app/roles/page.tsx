@@ -1,0 +1,1 @@
+export default function RolesPlaceholder() { return <main><h1>Roles route placeholder</h1></main>; }

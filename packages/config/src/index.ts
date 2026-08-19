@@ -1,0 +1,1 @@
+export const packageName = "@inventory/config" as const;

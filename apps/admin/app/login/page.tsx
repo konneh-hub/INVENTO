@@ -1,0 +1,1 @@
+export default function LoginPlaceholder() { return <main><h1>Login route placeholder</h1></main>; }

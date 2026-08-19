@@ -1,0 +1,1 @@
+export default function AuditLogsPlaceholder() { return <main><h1>Audit logs route placeholder</h1></main>; }
