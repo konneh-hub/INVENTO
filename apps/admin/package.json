@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "next dev -p 3000",
     "build": "next build",
-    "lint": "eslint .",
+    "lint": "eslint . --ignore-pattern next-env.d.ts",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
