@@ -29,8 +29,11 @@ docs/       architecture, database, API, and development notes
 1. Install Node.js 20 or newer and enable pnpm with `corepack enable`.
 2. Run `pnpm install`.
 3. Copy `.env.example` to `.env`.
-4. Start PostgreSQL with `docker compose up -d postgres`.
-5. Generate the Prisma client with `pnpm db:generate`.
+4. Start the fresh PostgreSQL container and persistent volume with `docker compose up -d postgres`.
+5. Confirm PostgreSQL is healthy with `docker compose ps`; the host connection is `localhost:5435`.
+6. Apply migrations with `pnpm prisma migrate deploy`.
+7. Generate the Prisma client with `pnpm db:generate`.
+8. Seed baseline permissions with `pnpm db:seed`.
 
 ## Development Commands
 
@@ -46,7 +49,7 @@ Run `pnpm build`, `pnpm lint`, `pnpm typecheck`, or `pnpm format:check` from the
 
 ## Current Scope
 
-No authentication, authorization, tenants, inventory, purchasing, sales, reporting, billing, audit behavior, or business database models have been implemented. Those belong to a later, explicitly designed phase.
+Authentication is implemented as the first application feature, including registration, Business Owner tenant creation, password hashing, revocable HttpOnly sessions, logout, password change, password reset, email verification, and session-based membership loading. Authorization policies and the remaining inventory, purchasing, sales, reporting, billing, audit workflows, and business APIs remain planned for later phases.
 
 ---
 

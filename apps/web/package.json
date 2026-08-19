@@ -8,6 +8,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@inventory/api-client": "workspace:*",
     "@inventory/types": "workspace:*",
     "@vitejs/plugin-react": "^4.3.4",
     "react": "^19.0.0",

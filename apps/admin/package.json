@@ -8,6 +8,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@inventory/api-client": "workspace:*",
     "@inventory/types": "workspace:*",
     "next": "^15.1.3",
     "react": "^19.0.0",
