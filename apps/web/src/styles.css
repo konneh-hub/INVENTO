@@ -2,5 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-body { margin: 0; font-family: sans-serif; background: #f8fafc; color: #0f172a; }
-main { max-width: 48rem; margin: 20vh auto; padding: 2rem; }
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #f8fafc;
+  color: #0f172a;
+}
+main {
+  max-width: 48rem;
+  margin: 20vh auto;
+  padding: 2rem;
+}

@@ -1,1 +1,7 @@
-export default function PermissionsPlaceholder() { return <main><h1>Permissions route placeholder</h1></main>; }
+export default function PermissionsPlaceholder() {
+  return (
+    <main>
+      <h1>Permissions route placeholder</h1>
+    </main>
+  );
+}

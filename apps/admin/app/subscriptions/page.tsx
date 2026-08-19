@@ -1,1 +1,7 @@
-export default function SubscriptionsPlaceholder() { return <main><h1>Subscriptions route placeholder</h1></main>; }
+export default function SubscriptionsPlaceholder() {
+  return (
+    <main>
+      <h1>Subscriptions route placeholder</h1>
+    </main>
+  );
+}

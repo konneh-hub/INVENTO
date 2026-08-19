@@ -1,4 +1,11 @@
 import { Link } from "expo-router";
 import { Text, View } from "react-native";
 
-export default function Index() { return <View><Text>Mobile foundation</Text><Link href="/(tabs)">Open app routes</Link></View>; }
+export default function Index() {
+  return (
+    <View>
+      <Text>Mobile foundation</Text>
+      <Link href="/(tabs)">Open app routes</Link>
+    </View>
+  );
+}

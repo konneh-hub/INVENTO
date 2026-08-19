@@ -1,3 +1,9 @@
 import { Text, View } from "react-native";
 
-export default function SettingsIndex() { return <View><Text>Settings placeholder</Text></View>; }
+export default function SettingsIndex() {
+  return (
+    <View>
+      <Text>Settings placeholder</Text>
+    </View>
+  );
+}

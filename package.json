@@ -2,7 +2,9 @@
   "name": "inventory-platform",
   "private": true,
   "packageManager": "pnpm@9.15.5",
-  "engines": { "node": ">=20.0.0" },
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "scripts": {
     "dev": "turbo dev",
     "build": "turbo build",
@@ -13,6 +15,11 @@
     "db:generate": "prisma generate",
     "db:validate": "prisma validate",
     "db:push": "prisma db push"
+  },
+  "pnpm": {
+    "overrides": {
+      "@types/react": "18.3.12"
+    }
   },
   "devDependencies": {
     "@types/node": "^22.10.2",
